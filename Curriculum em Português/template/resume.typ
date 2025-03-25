@@ -41,10 +41,17 @@ Média Final de 18,22 valores",
   description: "Licenciatura em Engenharia Informática",
 )
 
+#resume-entry(
+  title: "Universidade do Minho",
+  location: "Braga",
+  date:"2024 - atualmente",
+  description: "Mestrado em Engenharia Informática
+Especialização em Engenharia do Conhecimento e Sistemas de Data Warehousing",)
+
 = Certificações
 
 #resume-entry(
-  title: "Quadro de Merito Académico (x8)",
+  title: "Quadro de Merito Académico (x10)",
   location: "Braga",
   date: "2013-2021",
   description: "Agrupamento de Escolas Carlos Amarante",
@@ -58,6 +65,55 @@ Média Final de 18,22 valores",
 )
 
 = Projetos
+
+#resume-entry(
+  title: "Base de Dados de um fictício Hospital",
+  location: [#github-link("AntonioSilva03/Projeto-BD")],
+  date: "fevereiro 2022 - junho 2023",
+  description: "Universidade do Minho - Base de Dados",
+)
+
+#resume-item[
+  - Definição do sistema de informação de um hospital e recursos humanos
+  - Levantamento e Análise de Requisitos
+  - Modelação conceptual e lógica da base de dados
+  - Implementação física da base de dados e de um sistema de gestão de base de dados
+  - Sistema de Painéis de Análise de Dados
+  - Ferramentas - SQL, PowerBI, brModelo
+]
+
+#resume-entry(
+  title: "Sistemas de gestão de uma estação de serviço",
+  location: [#github-link("AntonioSilva03/Projeto-DSS")],
+  date: "setembro 2023 - janeiro 2024",
+  description: "Universidade do Minho - Desenvolvimento de Sistemas de Software",
+)
+
+#resume-item[
+  - Este sistema auxilia o funcionamento de uma estação da E.S.Ideal.
+  - Vários diagramas para auxiliar a compreensão do sistema
+  - Fornece aos seus clientes vários serviços de marcação e de manutenção automóvel.
+  - Dois tipos de utilizadores: gerente e mecânico
+  - Arquitetura implementada com o uso de uma base de dados.
+  - Ferramentas - Java, SQL Server e Visual Paradigm.
+]
+
+#resume-entry(
+  title: "Serviço de transferência de ficheiros Peer-to-Peer",
+  location: [#github-link("AntonioSilva03/Projeto-CC")],
+  date: "outubro 2023 - dezembro 2023",
+  description: "Universidade do Minho - Comunicações por Computador",
+)
+
+#resume-item[
+  - Um serviço peer-to-peer de transferência de ficheiros permite aos clientes transferir dados de forma mais eficiente de vários nós (seeders) transferindo partes diferentes de pacotes em paralelo.
+  - Existe uma entidade central que trata das conecções e controla que ficheiros cada nó tem
+  - É possível também consultar os ficheiros que se encontram a ser partilhados naquele momento diretamente no programa, bem como eliminar ficheiros.
+  - Utilização de TCP e UDP
+  - Ferramentas - Java
+]
+
+#pagebreak()
 
 #resume-entry(
   title: "Plataforma de leilões online",
@@ -75,23 +131,6 @@ Média Final de 18,22 valores",
 ]
 
 #resume-entry(
-  title: "Gerador de Sites de UC",
-  location: [#github-link("AntonioSilva03/Projeto-EngWeb")],
-  date: "maio 2024 - junho 2024",
-  description: "Universidade do Minho - Engenharia Web",
-)
-
-#resume-item[
-  - Plataforma para gerar páginas web que servem de suporte a unidades curriculares
-  - Três tipos de utilizadores (aluno, docente, admin)
-  - Nesta aplicação, os docentes das UCs podem disponibilizar ficheiros, colocar informação sobre a UC (avaliação, horários, equipa docente).
-  - Todos este conteúdo poderá ser consultado pelos alunos que ingressarem na UC.
-  - Arquitetura dividida 3 camadas: interface, servidor de autenticação, API e base de dados
-  - Autenticação com JWT
-  - Ferramentas - Express, MongoDB, JWT, Docker
-]
-
-#resume-entry(
   title: "Engine 3D",
   location: [#github-link("AntonioSilva03/Projeto-CG")],
   date: "fevereiro 2024 - junho 2024",
@@ -106,7 +145,20 @@ Média Final de 18,22 valores",
   - Ferramentas - OpenGl, C++.
 ]
 
-#pagebreak()
+#resume-entry(
+  title: "Serviços de troca de mensagens",
+  location: [#github-link("AntonioSilva03/SSI2324")],
+  date: "fevereiro 2024 - junho 2024",
+  description: "Universidade do Minho - Segurança de Sistemas Informáticos",
+)
+
+#resume-item[
+  - Repositório com todos os trabalhos práticos realizados na unidade curricular de Segurança de Sistemas Informáticos e guiões de laboratório.
+  - TP1: serviço de troca de mensagens encriptadas que utiliza o protocolo Diffie-Hellman. São ainda utilizados certificados x503 e o protocolo Station-to-Station.
+  - TP2: Aplicação Concordia. Serviço de troca de mensagens que funciona com os utilizadores e grupos do sistema Linux. É possivel enviar mensagens para um utilizador único ou para um grupo constituído por vários utilizadores.
+  - Ferramentas - Python, C
+]
+
 
 #resume-entry(
   title: "Serviço de orquestração de tarefas num computador",
@@ -139,53 +191,6 @@ Média Final de 18,22 valores",
   - Ferramentas - Vue
 ]
 
-#resume-entry(
-  title: "Sistemas de gestão de uma estação de serviço",
-  location: [#github-link("AntonioSilva03/Projeto-DSS")],
-  date: "setembro 2023 - janeiro 2024",
-  description: "Universidade do Minho - Desenvolvimento de Sistemas de Software",
-)
-
-#resume-item[
-  - Este sistema auxilia o funcionamento de uma estação da E.S.Ideal.
-  - Vários diagramas para auxiliar a compreensão do sistema
-  - Fornece aos seus clientes vários serviços de marcação e de manutenção automóvel.
-  - Dois tipos de utilizadores: gerente e mecânico
-  - Arquitetura implementada com o uso de uma base de dados.
-  - Ferramentas - Java, SQL Server e Visual Paradigm.
-]
-
-#resume-entry(
-  title: "Base de Dados de um fictício Hospital",
-  location: [#github-link("AntonioSilva03/Projeto-BD")],
-  date: "fevereiro 2022 - junho 2023",
-  description: "Universidade do Minho - Base de Dados",
-)
-
-#resume-item[
-  - Definição do sistema de informação de um hospital e recursos humanos
-  - Levantamento e Análise de Requisitos
-  - Modelação conceptual e lógica da base de dados
-  - Implementação física da base de dados e de um sistema de gestão de base de dados
-  - Sistema de Painéis de Análise de Dados
-  - Ferramentas - SQL, PowerBI, brModelo
-]
-
-#resume-entry(
-  title: "Serviço de transferência de ficheiros Peer-to-Peer",
-  location: [#github-link("AntonioSilva03/Projeto-CC")],
-  date: "outubro 2023 - dezembro 2023",
-  description: "Universidade do Minho - Comunicações por Computador",
-)
-
-#resume-item[
-  - Um serviço peer-to-peer de transferência de ficheiros permite aos clientes transferir dados de forma mais eficiente de vários nós (seeders) transferindo partes diferentes de pacotes em paralelo.
-  - Existe uma entidade central que trata das conecções e controla que ficheiros cada nó tem
-  - É possível também consultar os ficheiros que se encontram a ser partilhados naquele momento diretamente no programa, bem como eliminar ficheiros.
-  - Utilização de TCP e UDP
-  - Ferramentas - Java
-]
-
 
 #resume-entry(
   title: "Modelos de aprendizagem e decisão",
@@ -204,20 +209,6 @@ Média Final de 18,22 valores",
 #pagebreak()
 
 #resume-entry(
-  title: "Serviços de troca de mensagens",
-  location: [#github-link("AntonioSilva03/SSI2324")],
-  date: "fevereiro 2024 - junho 2024",
-  description: "Universidade do Minho - Segurança de Sistemas Informáticos",
-)
-
-#resume-item[
-  - Repositório com todos os trabalhos práticos realizados na unidade curricular de Segurança de Sistemas Informáticos e guiões de laboratório.
-  - TP1: serviço de troca de mensagens encriptadas que utiliza o protocolo Diffie-Hellman. São ainda utilizados certificados x503 e o protocolo Station-to-Station.
-  - TP2: Aplicação Concordia. Serviço de troca de mensagens que funciona com os utilizadores e grupos do sistema Linux. É possivel enviar mensagens para um utilizador único ou para um grupo constituído por vários utilizadores.
-  - Ferramentas - Python, C
-]
-
-#resume-entry(
   title: "Compilador de Forth",
   location: [#github-link("AntonioSilva03/Projeto-PL")],
   date: "maio 2024 - junho 2024",
@@ -231,6 +222,51 @@ Média Final de 18,22 valores",
   - Ferramentas - Python
 ]
 
+#resume-entry(
+  title: "Gerador de Sites de UC",
+  location: [#github-link("AntonioSilva03/Projeto-EngWeb")],
+  date: "maio 2024 - junho 2024",
+  description: "Universidade do Minho - Engenharia Web",
+)
+
+#resume-item[
+  - Plataforma para gerar páginas web que servem de suporte a unidades curriculares
+  - Três tipos de utilizadores (aluno, docente, admin)
+  - Nesta aplicação, os docentes das UCs podem disponibilizar ficheiros, colocar informação sobre a UC (avaliação, horários, equipa docente).
+  - Todos este conteúdo poderá ser consultado pelos alunos que ingressarem na UC.
+  - Arquitetura dividida 3 camadas: interface, servidor de autenticação, API e base de dados
+  - Autenticação com JWT
+  - Ferramentas - Express, MongoDB, JWT, Docker
+]
+
+#resume-entry(
+  title: "PictuRAS - Site para edição de imagens",
+  location: [#github-link("AntonioSilva03/PictuRAS")],
+  date: "outubro 2024 - janeiro 2025",
+  description: "Universidade do Minho - Requisitos e Arquiteturas de Software",
+)
+
+#resume-item[
+  - Desenvolvimento de um sistema em microsserviços focado na manipulação e visualização dinâmica de imagens.
+  - Implementação de funcionalidades para upload, processamento e organização de ficheiros gráficos com uma interface intuitiva.
+  - Integração de módulos de autenticação e gestão de utilizadores, assegurando a eficiência e segurança do sistema.
+  - Ferramentas - Vue, Python, JavaScript, Docker, MongoDB
+]
+
+#resume-entry(
+  title: "Previsão de Progressão de MCI para AD",
+  location: [#github-link("AntonioSilva03/Projeto-DAA")],
+  date: "outubro 2024 - janeiro 2025",
+  description: "Universidade do Minho - Dados e Aprendizagem Automática",
+)
+
+#resume-item[
+  - O projeto tinha como objetivo desenvolver modelos de Machine Learning capazes de prever, com sucesso, a progressão de MCI para AD.
+  - Foram utilizados vários algoritmos de Machine Learning, como Random Forest, SVM, KNN, entre outros.
+  - Foi feita uma análise exploratória dos dados, bem como a seleção de features mais importantes utilizando RFECV e PCA.
+  - Foi feita uma análise de resultados e conclusões, onde concluimos que claramente o dataset com os dados do hipocampo era bem melhor a prever que o com os dados do occipital.
+  - Ferramentas - Python, Kaggle
+]
 
 
 = Skills
@@ -263,6 +299,7 @@ Média Final de 18,22 valores",
     "Docker",
     "MongoDB",
     "SQL Server",
+    "Neo4js"
   ),
 )
 
@@ -279,5 +316,6 @@ Média Final de 18,22 valores",
                     "Gestão de tempo",
                     "Resolução de problemas",
                     "Adaptabilidade",
-                    "Descobrimento de bugs"
+                    "Descobrimento de bugs",
+                    "Fast Learner"
                   ))
